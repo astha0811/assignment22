@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Simplifying Compliance For Research Analysts</title>
+<meta name="description" content="Expert end-to-end compliance support, regulatory filings, and risk protection tailored for independent research analysts and firms." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =================== ICON SPRITE =================== -->
+<svg style="display:none" aria-hidden="true">
+  <symbol id="icon-logo" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M8 13v-2M11 13V8M14 13v-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="icon-phone" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.7 21 3 13.3 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1l-2.3 2.2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-check" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-close" viewBox="0 0 24 24" fill="none"><path d="M5 5l14 14M19 5 5 19" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+  <symbol id="icon-home" viewBox="0 0 24 24" fill="none"><path d="M4 11.5 12 4l8 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 10v9a1 1 0 0 0 1 1h3v-5h4v5h3a1 1 0 0 0 1-1v-9" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-info" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 11v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="7.7" r="1.15" fill="currentColor"/></symbol>
+  <symbol id="icon-services" viewBox="0 0 24 24" fill="none"><path d="M4 19c2-3 5-4 8-4s6 1 8 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="15.5" cy="8" r="3.2" stroke="currentColor" stroke-width="1.8"/><path d="M5 6l1 1.4L7.4 8 6 8.6 5 10l-1-1.4L2.6 8 4 7.4 5 6Z" fill="currentColor"/></symbol>
+  <symbol id="icon-pricing" viewBox="0 0 24 24" fill="none"><path d="M11.5 3.5h6a1 1 0 0 1 1 1v6a1 1 0 0 1-.3.7l-9 9a1 1 0 0 1-1.4 0l-6.7-6.7a1 1 0 0 1 0-1.4l9-9a1 1 0 0 1 .7-.3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="15.5" cy="7.5" r="1.4" fill="currentColor"/></symbol>
+  <symbol id="icon-faq" viewBox="0 0 24 24" fill="none"><path d="M3 12a7 7 0 0 1 11.6-5.3A7 7 0 0 1 21 13a7 7 0 0 1-3 .8H9l-4 3v-3.4A7 7 0 0 1 3 12Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9.5 9.5a1.5 1.5 0 1 1 2 1.4c-.7.3-1 .7-1 1.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="10.5" cy="15" r=".9" fill="currentColor"/></symbol>
+  <symbol id="icon-contact" viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.3" stroke="currentColor" stroke-width="1.6"/><path d="M8 17c.8-1.8 2.2-2.7 4-2.7s3.2.9 4 2.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M3 8h2M3 12h2M3 16h2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="icon-search" viewBox="0 0 24 24" fill="none"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="2"/><path d="m20 20-4.3-4.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="icon-doc" viewBox="0 0 24 24" fill="none"><rect x="6" y="3" width="12" height="18" rx="1.6" stroke="currentColor" stroke-width="1.8"/><path d="M9 8h6M9 12h6M9 16h3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="icon-shield" viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.5-3 7.7-7 9-4-1.3-7-4.5-7-9V6l7-3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="11" r="2.4" stroke="currentColor" stroke-width="1.6"/><path d="M12 13.4v2.3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="icon-briefcase" viewBox="0 0 24 24" fill="none"><rect x="3" y="8" width="18" height="11" rx="1.8" stroke="currentColor" stroke-width="1.8"/><path d="M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" stroke="currentColor" stroke-width="1.8"/><path d="M3 13h18" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="icon-chevrons" viewBox="0 0 160 24" fill="none"><path d="M2 4l8 8-8 8M28 4l8 8-8 8M54 4l8 8-8 8M80 4l8 8-8 8M106 4l8 8-8 8M132 4l8 8-8 8" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<!-- =================== HEADER =================== -->
+<header class="site-header">
+  <div class="container site-header__bar">
+    <a href="#" class="logo" aria-label="Home">
+      <svg class="logo__icon" aria-hidden="true"><use href="#icon-logo"/></svg>
+      Logo
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link is-active">Home</a></li>
+        <li><a href="#about" class="nav__link">About Us</a></li>
+        <li><a href="#services" class="nav__link">Our Services</a></li>
+        <li><a href="#pricing" class="nav__link">Pricing</a></li>
+        <li><a href="#faq" class="nav__link">FAQ</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-cta">
+      <a href="#contact" class="btn btn--primary">
+        <svg class="icon-inline" aria-hidden="true"><use href="#icon-phone"/></svg>
+        Contact Us
+      </a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileDrawer">
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile / tablet drawer -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="drawer" id="mobileDrawer" aria-hidden="true">
+  <div class="drawer__top">
+    <a href="#" class="logo">
+      <svg class="logo__icon" aria-hidden="true"><use href="#icon-logo"/></svg>
+      Logo
+    </a>
+    <button class="drawer__close" id="drawerClose" aria-label="Close menu">
+      <svg width="28" height="28" aria-hidden="true"><use href="#icon-close"/></svg>
+    </button>
+  </div>
+
+  <nav aria-label="Mobile">
+    <ul class="drawer__list">
+      <li><a href="#home" class="drawer__link is-active"><span class="drawer__link-icon"><svg aria-hidden="true"><use href="#icon-home"/></svg></span>Home</a></li>
+      <li><a href="#about" class="drawer__link"><span class="drawer__link-icon"><svg aria-hidden="true"><use href="#icon-info"/></svg></span>About Us</a></li>
+      <li><a href="#services" class="drawer__link"><span class="drawer__link-icon"><svg aria-hidden="true"><use href="#icon-services"/></svg></span>Our Services</a></li>
+      <li><a href="#pricing" class="drawer__link"><span class="drawer__link-icon"><svg aria-hidden="true"><use href="#icon-pricing"/></svg></span>Pricing</a></li>
+      <li><a href="#faq" class="drawer__link"><span class="drawer__link-icon"><svg aria-hidden="true"><use href="#icon-faq"/></svg></span>FAQ</a></li>
+      <li><a href="#contact" class="drawer__link"><span class="drawer__link-icon"><svg aria-hidden="true"><use href="#icon-contact"/></svg></span>Contact</a></li>
+    </ul>
+  </nav>
+
+  <a href="#contact" class="btn btn--primary drawer__cta">Contact Us</a>
+</aside>
+
+<main id="home">
+  <!-- =================== HERO =================== -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content fade-up">
+        <svg class="hero__chevrons" viewBox="0 0 160 24" aria-hidden="true"><use href="#icon-chevrons"/></svg>
+
+        <h1>
+          Simplifying<br>
+          <span class="hero__underline">Compliance
+            <svg viewBox="0 0 320 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 8c60-8 240-8 316 0" stroke="currentColor" stroke-width="5" stroke-linecap="round" fill="none"/></svg>
+          </span> For<br>
+          Research Analysts
+        </h1>
+
+        <p class="hero__desc">
+          Stay focused on your insights—we'll handle the compliance. Our expert solutions ensure your research practices meet every regulatory requirement with confidence and ease.
+        </p>
+
+        <ul class="hero__checklist">
+          <li><span class="check-bullet"><svg aria-hidden="true"><use href="#icon-check"/></svg></span>End-to-end compliance support</li>
+          <li><span class="check-bullet"><svg aria-hidden="true"><use href="#icon-check"/></svg></span>Regulatory filings made simple</li>
+          <li><span class="check-bullet"><svg aria-hidden="true"><use href="#icon-check"/></svg></span>Tailored solutions for independent analysts &amp; firms</li>
+        </ul>
+
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Get Started</a>
+          <a href="#contact" class="btn btn--outline">Book A Consultation</a>
+        </div>
+      </div>
+
+      <div class="hero__art fade-up">
+        <svg class="hero__art-blob" viewBox="0 0 560 620" aria-hidden="true">
+          <path d="M290 15c160 0 285 125 285 300S460 610 290 610 5 490 5 315 130 15 290 15Z" fill="#F2F3FF"/>
+
+          <!-- briefcase (background right) -->
+          <g transform="translate(410,450)">
+            <rect x="0" y="26" width="110" height="80" rx="8" fill="#E3E6FB"/>
+            <rect x="34" y="6" width="42" height="24" rx="6" fill="none" stroke="#D4D8F8" stroke-width="7"/>
+            <rect x="0" y="60" width="110" height="9" fill="#D4D8F8"/>
+            <rect x="48" y="56" width="14" height="16" rx="2" fill="#D4D8F8"/>
+          </g>
+
+          <!-- figure: standing woman with laptop, pointing -->
+          <g transform="translate(120,60)">
+            <!-- hair back -->
+            <path d="M85 8c46-6 88 22 92 62 3 26-6 46-10 52-6-8-16-14-28-14 6-22-4-42-24-50-24-10-46 2-56 22-8-22 0-56 26-72Z" fill="#E8521F"/>
+            <!-- head -->
+            <circle cx="128" cy="76" r="38" fill="#FDCBA0"/>
+            <!-- hair front/fringe -->
+            <path d="M92 66c2-30 32-48 62-36 8 4 14 10 16 18-10-8-24-10-36-4 8 6 12 16 10 26-8-10-22-14-34-10 4 8 2 18-4 24-6-6-14-10-14-18Z" fill="#E8521F"/>
+            <!-- eye + smile hint (simple) -->
+            <circle cx="140" cy="78" r="2.4" fill="#3a2418"/>
+            <path d="M132 92c4 4 10 4 14 1" stroke="#c0653a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+
+            <!-- torso / shirt -->
+            <path d="M64 150c10-22 40-36 68-36s56 14 66 36l14 158H50Z" fill="#FF8D28"/>
+            <!-- collar detail -->
+            <path d="M108 118c8 10 24 10 32 0" stroke="#e8752b" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <rect x="118" y="132" width="18" height="22" rx="3" fill="none" stroke="#e8752b" stroke-width="3"/>
+
+            <!-- raised arm pointing -->
+            <path d="M196 140c26-2 46 10 58 28 8 12 4 26-8 30-8-16-24-28-44-32Z" fill="#FDCBA0"/>
+            <path d="M244 168l14 6-4 12-14-8Z" fill="#FDCBA0"/>
+
+            <!-- other arm holding laptop -->
+            <path d="M70 176c-24 8-38 28-38 52l10 12c6-20 20-34 40-38Z" fill="#FDCBA0"/>
+            <rect x="-10" y="222" width="104" height="66" rx="7" fill="#4356D6"/>
+            <rect x="0" y="232" width="84" height="46" rx="3" fill="#EEF0FE"/>
+
+            <!-- legs (loose trousers) -->
+            <path d="M78 300c-4 46-14 92-24 130l30 4c14-42 22-84 28-128Z" fill="#4356D6"/>
+            <path d="M150 300c8 44 22 86 34 126l30-6c-10-42-18-82-20-124Z" fill="#4356D6"/>
+            <path d="M84 300h60l-2-14H86Z" fill="#2F3FB0"/>
+            <!-- ankle/socks -->
+            <path d="M82 428l24 4 2 14-28-2Z" fill="#FF8D28"/>
+            <path d="M182 420l26 8-2 14-28-6Z" fill="#FF8D28"/>
+            <!-- shoes -->
+            <ellipse cx="92" cy="452" rx="28" ry="13" fill="#2b2b38"/>
+            <ellipse cx="206" cy="446" rx="28" ry="13" fill="#2b2b38"/>
+          </g>
+        </svg>
+
+        <div class="hero__badge hero__badge--rating">
+          <div class="hero__badge-num">4.8</div>
+          <div>
+            <div class="hero__badge-stars" aria-label="5 star rating">★★★★★</div>
+            <div class="hero__badge-label">Clients Rating</div>
+          </div>
+        </div>
+
+        <div class="hero__badge hero__badge--trust">
+          <span class="hero__badge-icon"><svg width="22" height="22" aria-hidden="true"><use href="#icon-briefcase"/></svg></span>
+          <div>
+            <div class="hero__badge-sub">Trusted By</div>
+            <div class="hero__badge-num hero__badge-num--sm">250+</div>
+            <div class="hero__badge-sub">Professionals</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== WHY COMPLIANCE MATTERS =================== -->
+  <section class="why" id="about">
+    <div class="container why__inner">
+      <div class="why__col fade-up">
+        <h2 class="why__heading">Why <span class="eyebrow-accent">Compliance Matters</span> For Research Analysts</h2>
+        <svg class="why__squiggle" viewBox="0 0 60 90" aria-hidden="true">
+          <path d="M30 2c14 0 18 12 8 18-10 6-22-2-16-12 4-7 16-6 16 4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          <path d="M30 18v60M30 78l-12-14M30 78l12-14" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+        <div class="why__art">
+          <svg class="why__chart-frame" viewBox="0 0 460 420" aria-hidden="true">
+            <rect x="10" y="0" width="380" height="280" rx="6" fill="#FFFFFF" stroke="#4356D6" stroke-width="6"/>
+            <circle cx="90" cy="80" r="42" fill="#E3E6FB"/>
+            <path d="M90 80 L90 38 A42 42 0 0 1 124 110 Z" fill="#4356D6"/>
+            <text x="160" y="95" font-family="Roboto" font-size="20" font-weight="700" fill="#1b1b29">50 / 100</text>
+            <rect x="160" y="44" width="50" height="8" rx="4" fill="#4356D6"/>
+            <rect x="160" y="60" width="80" height="8" rx="4" fill="#C7CCF5"/>
+
+            <rect x="40" y="170" width="22" height="80" fill="#C7CCF5"/>
+            <rect x="80" y="130" width="22" height="120" fill="#4356D6"/>
+            <rect x="120" y="155" width="22" height="95" fill="#7B8AE8"/>
+            <rect x="160" y="180" width="22" height="70" fill="#2F3FB0"/>
+
+            <rect x="40" y="130" width="40" height="6" rx="3" fill="#E3E6FB"/>
+            <rect x="40" y="142" width="55" height="6" rx="3" fill="#E3E6FB"/>
+            <rect x="40" y="262" width="50" height="6" rx="3" fill="#C7CCF5"/>
+            <rect x="100" y="262" width="35" height="6" rx="3" fill="#C7CCF5"/>
+            <rect x="145" y="262" width="40" height="6" rx="3" fill="#C7CCF5"/>
+
+            <!-- seated person -->
+            <g transform="translate(190,230)">
+              <ellipse cx="80" cy="150" rx="80" ry="46" fill="#9AA0AE"/>
+              <circle cx="50" cy="40" r="26" fill="#3C2A22"/>
+              <circle cx="50" cy="48" r="22" fill="#FCC9A0"/>
+              <path d="M30 36c2-18 38-18 40 0" fill="#1B130F"/>
+              <path d="M14 78c4-20 22-34 44-34s38 12 44 30l8 60H10Z" fill="#2C3140"/>
+              <path d="M50 78c14-4 30-2 40 6 14 10 18 26 12 38-12-4-24-12-30-24Z" fill="#3D6FE0"/>
+              <rect x="20" y="110" width="70" height="44" rx="6" fill="#4356D6"/>
+              <rect x="28" y="116" width="54" height="30" rx="3" fill="#EEF0FE"/>
+            </g>
+          </svg>
+          <svg class="why__plant" viewBox="0 0 90 130" aria-hidden="true">
+            <path d="M45 90c0-40 20-55 30-65-6 26-10 45-10 65Z" fill="#4356D6"/>
+            <path d="M45 90c0-44-16-58-28-66 4 28 8 46 12 66Z" fill="#7B8AE8"/>
+            <path d="M45 90c0-30 6-42 0-58-8 18-10 36-6 58Z" fill="#9AA6F0"/>
+            <path d="M20 90h50l-6 30H26Z" fill="#EEF0FE" stroke="#C7CCF5" stroke-width="3"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="why__col fade-up">
+        <p class="why__desc">In today's regulatory environment, even a small oversight can lead to penalties, reputational risks, and loss of client trust. We help research analysts and firms navigate complex compliance requirements so they can focus on delivering high-quality research without worry.</p>
+
+        <div class="why__cards">
+          <article class="feature-card">
+            <span class="feature-card__icon"><svg aria-hidden="true"><use href="#icon-search"/></svg></span>
+            <div>
+              <h3 class="feature-card__title">Regulatory Clarity</h3>
+              <p class="feature-card__text">We decode complex compliance rules into simple, actionable steps.</p>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-card__icon"><svg aria-hidden="true"><use href="#icon-doc"/></svg></span>
+            <div>
+              <h3 class="feature-card__title">Hassle-Free Filings Clarity</h3>
+              <p class="feature-card__text">From registration to ongoing reporting—we manage it end-to-end.</p>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-card__icon"><svg aria-hidden="true"><use href="#icon-shield"/></svg></span>
+            <div>
+              <h3 class="feature-card__title">Risk Protection</h3>
+              <p class="feature-card__text">Stay ahead of audits, inspections, and compliance gaps with proactive support.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="container">
+    <p>&copy; 2026 Logo. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
